@@ -5,6 +5,18 @@ ctx.beginPath();
 ctx.strokeStyle = "blue";
 ctx.lineWidth = "2px";
 
+var shrek = new Image();
+shrek.src = "shrek.png"
+shrek.onload = function(){
+	ctx4.drawImage(shrek,150,300,70,100);
+}
+
+var donkey = new Image();
+donkey.src = "donkey.png"
+donkey.onload = function(){
+	ct4.drawImage(donkey,150,300,70,100);
+}
+
 //starting coordinate
 ctx.moveTo(75,0);
 //other points
