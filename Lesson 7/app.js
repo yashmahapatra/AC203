@@ -110,11 +110,11 @@ function update(){
 	player.body.velocity.x = 0;
 
 	//player movement by keys
-	if(cursor.left.isDown){
+	if(cursors.left.isDown){
 		//move left
 		player.body.velocity.x = -150;
 		player.animations.play('left');
-	} else if(cursor.right.isDown){
+	} else if(cursors.right.isDown){
 		//move right
 		player.body.velocity.x = 150;
 		player.animations.play('right');
@@ -124,7 +124,7 @@ function update(){
 	}
 
 	//allow the player to jump if the player is touching the ground
-	if(cursors.up.isDown && player.body.touching.down){
+	if(cursorss.up.isDown && player.body.touching.down){
 		player.body.velocity.y = -300;
 	}
 
