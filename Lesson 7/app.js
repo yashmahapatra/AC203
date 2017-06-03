@@ -153,7 +153,7 @@ function update(){
 
 	//collide stars with platform
 	game.physics.arcade.collide(stars, platforms);
-	game.physics.arcade.overlap(player, star, collectStar, null, this);
+	game.physics.arcade.overlap(player, stars, collectStar, null, this);
 	game.physics.arcade.overlap(player, enemy1, loseLife, null, this);
 	game.physics.arcade.overlap(player, enemy2, loseLifeLeft, null, this);
 	game.physics.arcade.overlap(player, enemy3, loseLife, null, this);
