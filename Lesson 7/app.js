@@ -186,7 +186,7 @@ function loseLife(player, enemy){
 }
 
 //define loseLifeLeft
-function loseLife(player, enemy){
+function loseLifeLeft(player, enemy){
 	//lose life
 	life = life-1;
 	lifetext.setText(life);
