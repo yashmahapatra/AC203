@@ -125,7 +125,7 @@ function update(){
 
 	//allow the player to jump if the player is touching the ground
 	if(cursors.up.isDown && player.body.touching.down){
-		player.body.velocity.y = -500;
+		player.body.velocity.y = -700;
 	}
 
 	//enemy AI
